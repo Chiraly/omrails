@@ -4,6 +4,8 @@ gem 'rails', '3.2.13'
 gem 'jquery-rails'
 gem 'devise'
 gem 'simple_form'
+gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
+gem "cocaine", "~> 0.5.1"
 
 group :production do
 	gem 'pg'
